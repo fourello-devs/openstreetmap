@@ -68,8 +68,8 @@ class Search extends BaseModel
      */
     public function __construct()
     {
-        $this->country_codes = explode(',', strtolower(config('openstreetmap.countrycodes', '')));
-        $this->setSearchLimit(config('openstreetmap.limit', 10));
+        $this->country_codes = explode(',', strtolower(config('openstreetmap.countrycodes')));
+        $this->setSearchLimit(config('openstreetmap.limit'));
     }
 
     /***** GETTERS *****/
