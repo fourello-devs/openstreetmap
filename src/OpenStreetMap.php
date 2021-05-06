@@ -2,6 +2,9 @@
 
 namespace FourelloDevs\OpenStreetMap;
 
+use FourelloDevs\OpenStreetMap\Models\Request\Reverse;
+use FourelloDevs\OpenStreetMap\Models\Request\Search;
+use FourelloDevs\OpenStreetMap\Models\Response\Place;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
 
